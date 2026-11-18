@@ -44,7 +44,7 @@ export const TEMPLATES: TemplateDef[] = [
     swatch: ['#101114', '#ffd400', '#ff3b30'],
     build: () => [
       makePlaceholder(600, 0, 680, 720, 'Drop your photo here'),
-      rect({ left: 0, top: 0, width: 640, height: 720, fill: linearGradient(720, [[0, '#101114'], [1, '#1c1d22']]) as any, name: 'Left panel' }),
+      rect({ left: 0, top: 0, width: 600, height: 720, fill: linearGradient(720, [[0, '#101114'], [1, '#1c1d22']]) as any, name: 'Left panel' }),
       text('I TRIED IT FOR 30 DAYS', {
         left: 48,
         top: 64,
